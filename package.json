@@ -11,6 +11,10 @@
   },
   "files": ["index.ts", "src/"],
   "license": "MIT",
+  "scripts": {
+    "sync": "bun run scripts/sync-models.ts",
+    "sync:global": "bun run scripts/sync-models.ts --update-global"
+  },
   "peerDependencies": {
     "ai": ">=5.0.0"
   }
