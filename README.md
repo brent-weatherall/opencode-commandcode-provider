@@ -8,7 +8,17 @@
 
 Sign up at [commandcode.ai](https://commandcode.ai) and generate an API key.
 
-### 2. Connect
+### 2. Install
+
+Add the provider to your `opencode.json`:
+
+```bash
+opencode plugin commandcode-go-opencode-provider
+```
+
+Or add it manually (see [Manual Configuration](#manual-configuration)).
+
+### 3. Connect
 
 Run `/connect` in opencode, search for **Command Code**, and enter your API key:
 
@@ -16,7 +26,7 @@ Run `/connect` in opencode, search for **Command Code**, and enter your API key:
 /connect
 ```
 
-### 3. Select a model
+### 4. Select a model
 
 Run `/models` to pick from available models:
 
